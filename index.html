@@ -17,15 +17,15 @@
   	   <!-- External CSS -->
         <link rel="stylesheet" href="./index.css"/>
 
-		<title>Cami Doroteo</title>
+		<title>Cee Doroteo | Web Developer</title>
 	</head>
 	<body>
 	<!-- <body class="container-fluid"> -->
 
 		<!-- navbar start -->
-		<nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top" id="top">
 		  <div class="container-fluid">
-		    <a class="navbar-brand" href="#profile"><img src="./images/logo-sm.png" width="150"></a>
+		    <a class="navbar-brand" href="#profile"><img src="./images/cee_logo.png" width="50"></a>
 		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		      <span class="navbar-toggler-icon"></span>
 		    </button>
@@ -35,24 +35,31 @@
 		        <li class="nav-item">
 		          <a class="nav-link active" aria-current="page" href="#profile" >About Me</a>
 		        </li>
-		          <li class="nav-item">
-		          <a class="nav-link active" aria-current="page" href="#capstone">Capstone Projects</a>
-		        </li>
-		        <li class="nav-item">
-		          <a class="nav-link active" aria-current="page" href="#projects">Projects</a>
-		        </li>
-		        <li class="nav-item">
-		          <a class="nav-link active" aria-current="page" href="#artworks">Artworks</a>
-		        </li>
-		        <li class="nav-item">
-		          <a class="nav-link active" aria-current="page" href="#project">Tools</a>
-		        </li>
-		        <li class="nav-item">
-		          <a class="nav-link active" aria-current="page" href="#contact">Contact Me</a>
-		        </li>
-		        <li class="nav-item">
-		          <a class="nav-link active" aria-current="page" href="#find">Contacts</a>
-		        </li>
+		        <li class="nav-item dropdown">
+		             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+		               Projects
+		             </a>
+		             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+		               <li><a class="dropdown-item" href="#capstone">Capstone Projects</a></li>
+		               <li><a class="dropdown-item" href="#projects">Recent Projects</a></li>
+		               <li><hr class="dropdown-divider"></li>
+		               <li><a class="dropdown-item" href="#artworks">Artworks</a></li>
+		               <li><a class="dropdown-item" href="#project">Tools</a></li>
+		             </ul>
+		      	</li>
+
+		        <li class="nav-item dropdown">
+		               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+		                 Contacts
+		               </a>
+		               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+		                 <li><a class="dropdown-item" href="#contact">Contact Me</a></li>
+		                 <li><a class="dropdown-item" href="#find">Location</a></li>
+		                 <li><hr class="dropdown-divider"></li>
+		                 <li><a class="dropdown-item" href="#social">Social Media Accounts</a></li>
+		               </ul>
+		        	</li
+	
 		      </ul>
 		    </div>
 		  </div>
@@ -67,6 +74,7 @@
 				<!-- Side Navbar Section Start -->
 
 				<div class="accordion col-xl-2 d-none d-xl-block p-0" id="accordionExample">
+				  
 				  <div class="accordion-item">
 				    <h2 class="accordion-header" id="headingOne">
 				      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -85,6 +93,7 @@
 				      </div>
 				    </div>
 				  </div>
+
 				  <div class="accordion-item">
 				    <h2 class="accordion-header" id="headingTwo">
 				      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -102,6 +111,7 @@
 				      </div>
 				    </div>
 				  </div>
+
 				  <div class="accordion-item">
 				    <h2 class="accordion-header" id="headingThree">
 				      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -119,6 +129,7 @@
 				      </div>
 				    </div>
 				  </div>
+
 				</div>
 				<!-- Side Navbar Section End -->
 
@@ -129,26 +140,28 @@
 
 					<!-- Profile Section Start -->
 					<div class="container-fluid text-dark min-vh-100 p-3 p-md-5" id="profile">
-						<img src="./images/cami.jpg" width="250" class="border border-dark rounded-circle mt-5 mt-md-3"/>
+						<img src="./images/cami.jpg" width="250" class="border border-dark rounded-circle mt-md-3"/>
 						<h1>Cami Doroteo</h1>
 						<h3>Full Stack Developer</h3>
-						<p class="text-success">Online</p>
-						<div class="row mt-5 pb-3">
+						<p clas="fw-bold">Online</p>
+						<div class="row mt-5 pb-1">
 							<div class="offset-md-2 col-md-4 order-2 order-md-1">
 								<img src="./images/hcb.png" width="200" class="mt-1 mt-md-0"/>
 							</div>
 							
 							<div class="col-md-4 order-1 order-md-2">
 								<h4>Hi! I'm Cami.</h4>
-								<p>A full stack web developer having specialization in back end and front end development. I also have an experience in art and design. I create awesome websites to help people go further online! Want me to be a part of your team?</p>
+								<p class="fw-bold">I am a full stack web developer from the Phlippines! I specialize in both back end and front end development through the help of Zuitt Coding Bootcamp! I also do freelancing about art and design. I create awesome websites to help people go further online! Want me to be a part of your team?</p>
 								<h4 class="mb-5">Let us explore this website to get us started!</h4>
+
+
 							</div>
 						</div>
 					</div>
 					<!-- Profile Section End -->
 
 					<!-- Capstone Projects Start -->
-					<div class="container-fluid bg-secondary text-light min-vh-100 p-5" id="capstone">
+					<div class="container-fluid text-light min-vh-100 p-5" id="capstone">
 						<h2 class="mt-5">Capstone Projects</h2>
 
 						<!-- Capstone Projects Container Start -->
@@ -192,14 +205,15 @@
 						</div>
 						<!-- Other Projects Container End -->
 					</div>
-					<!-- Other Projects End -->
+					<!-- Capstone Projects End -->
 
 
-					
+					<!-- Projects, Artworks, Tools Start -->
 					<div class="container-fluid bg-dark min-vh-100 p-3 p-md-5 text-white" id="projects">
 						<!-- <div class="container-fluid min-vh-100 bg-dark row d-flex d-md-block mt-5" id="projects"> -->
-							<h2 class="my-5">Projects</h2>
+							<h2 class="my-5">Recent Projects</h2>
 							<p>These are some of my previous projects I accomplished in the past month!</p>
+
 							<!-- Carousel Section 1 (Projects) Start -->
 							<div>
 
@@ -276,15 +290,13 @@
 								  </button>
 
 								</div>
-
 							</div>
 							<p class="my-5">Feel free to take a look!</p>
-						</div>
+							</div>
+							<!-- Carousel Section End -->
 
-						<!-- Carousel Section End -->
-
-						<!-- Carousel Section 2 (Artworks) Start -->
-						<div class="container-fluid text-dark min-vh-100 p-3 p-md-5 bg-dark text-white" id="artworks">
+							<!-- Carousel Section 2 (Artworks) Start -->
+							<div class="container-fluid text-dark min-vh-100 p-3 p-md-5 bg-dark text-white" id="artworks">
 							<h2 class="my-5">Artworks</h2>
 							<p class="mb-5">These are some of my previous artworks.</p>
 
@@ -310,7 +322,7 @@
 								    	<div class="carousel-item active">
 								      		<img src="./images/artn1.png" width="377" alt="man">
 								      		<div class="carousel-caption d-none d-md-block">
-								        	<h5 class="text-primary fw-bold">Pretty Boy</h5>
+								        	<h5 class="text-primary fw-bold">LOML</h5>
 								       <!--  <p class="bg-secondary bg-gradient text-white p-1 rounded"></p> -->
 								      		</div>
 										</div>
@@ -366,16 +378,15 @@
 								
 							</div>
 							<p class="my-5 ">Feel free to take a look!</p>
-						</div>
-
-						<!-- Carousel Section 2 End -->
+							</div>
+							<!-- Carousel Section 2 End -->
 
 					<!-- TOOLS -->
-					<div class="bg-secondary text-light min-vh-100 p-5 mb-5" id="project">
-						<h2 class="mt-5">Tools</h2>
+							<div class="bg-secondary text-light min-vh-100 p-5 mb-5" id="project">
+							<h2 class="mt-5">Tools</h2>
 
-						<!-- Other Projects Container Start -->
-						<div class="d-lg-flex justify-content-center p-md-5">
+						<!-- Tools Start -->
+							<div class="d-lg-flex justify-content-center p-md-5">
 
 							<!-- HTML Card Start -->
 							<div class="card bg-dark col-xl-4 mb-5 mb-xl-0">
@@ -384,8 +395,7 @@
 							    <h5 class="card-title">HTML</h5>
 							    <h6 class="card-subtitle text-muted mb-2">Programming Basics</h6>
 							    <p class="card-text">Hypertext Markup Language, a standardized system for tagging text files to achieve font, color, graphic, and hyperlink effects on World Wide Web pages.</p>
-							    
-							  </div>
+							</div>
 							</div>
 							<!-- HTML Card End -->
 
@@ -408,21 +418,22 @@
 							    <h5 class="card-title">Node JS</h5>
 							    <h6 class="card-subtitle text-muted mb-2">Backend Basics</h6>
 							    <p class="card-text">Node. js is primarily used for non-blocking, event-driven servers, due to its single-threaded nature.</p>
-							 
 							  </div>
 							</div>
 							<!-- NodeJS Server Card End -->
+
 						</div>
-						<!-- Other Projects Container End -->
-					</div>
+						<!-- Tools End -->
+						</div>
+
 					<!-- Other Projects End -->
 
 
 
 					<!-- Contact Section Form Start -->
-					<div class="container-fluid bg-dark text-light min-vh-100 p-3 p-md-5" id="contact">
+					<div class="container-fluid bg-dark text-light min-vh-100 pt-5" id="contact">
 						<h2 class="mt-5">Contact Me</h2>
-							<div class=" container-fluid bg-primary p-3 col-md-6 col-10">
+							<div class=" container-fluid bg-primary p-3 col-10 mb-5">
 							<form>
 
 								<div class="mb-3">
@@ -452,17 +463,7 @@
 								  <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
 								</div>
 
-								<button type="button" class="btn btn-dark btn-md">Send Email</button>
-
-
-
-
-
-
-
-
-
-
+								<button type="button" class="btn btn-dark btn-md mt-1">Send Email</button>
 
 
 
@@ -475,19 +476,20 @@
 
 					</div>
 					<!-- Contact Section Form End -->
-					<div class="container-fluid bg-dark text-light min-vh-100 p-3 p-md-5 mt=5" id="contact">
-						<h1>For inquiries:</h1>
-						<h2 class="my-5" id="find">You can find me at:</h2>
+					<div class="container-fluid bg-dark text-light min-vh-100 p-3 p-md-5 mt=5" id="find">
+						<h1 class="pt-5 mt-5">For inquiries:</h1>
+						<h3 class="my-5" id="find">Come and Visit!</h3>
 					<div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px" class="mt-5">
  						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d494877.4108668609!2d120.90009526083624!3d14.29807808643648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b7f5db7f5e3f%3A0xe15d2d6a4453ed00!2sZuitt%20QC!5e0!3m2!1sen!2sph!4v1657684848157!5m2!1sen!2sph" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 						</div>
 
 
-						<h2>Social Media Accounts</h2>
-						<div class="bg-dark p-3 d-md-flex justify-content-around mb-5">
-						<div class="p-3 bg-white col-md-2"><a href="https://gitlab.com/camidoroteo" target="_blank" class="text-decoration-none"><img src="./images/git.png"></a></div>
-						<div class="p-3 bg-white col-md-2"><a href="https://www.linkedin.com/in/camille-doroteo-b0b708240" target="_blank" class="text-decoration-none"><img src="./images/ig.png"></a></div>
-						<div class="p-3 bg-white col-md-2"><a href="https://www.instagram.com/camidoroteo/" target="_blank" class="text-decoration-none"><img src="./images/link.png"></a></div>
+						<h2 class="mt-5"id="social">Let's chat!</h2>
+						<p class="fw-bold">Click the buttons below.</p>
+						<div class="container-fluid bg-dark d-md-flex justify-content-around mb-5">
+						<div class="p-3 bg col-md-3"><a href="https://gitlab.com/camidoroteo" target="_blank" class="text-decoration-none"><img class="border border-dark-2 rounded-circle" src="./images/git.png"></a></div>
+						<div class="p-3 col-md-3"><a href="https://www.linkedin.com/in/camille-doroteo-b0b708240" target="_blank" class="text-decoration-none"><img class="border border-dark-2 rounded-circle" src="./images/ig.png"></a></div>
+						<div class="p-3 col-md-3"><a href="https://www.instagram.com/camidoroteo/" target="_blank" class="text-decoration-none"><img class="border border-dark-2 rounded-circle" src="./images/link.png"></a></div>
 						</div>
 					</div>
 
@@ -502,23 +504,21 @@
 
 		<!-- Footer Start-->
 
-		<footer class="bg-primary text-light p-1 offset-md-2 col-md-10">
+		<footer class="container-fluid bg-primary text-light p-1 ">
 		    <span>Terms of Service</span>
 		    <span>|</span>
 		    <span>Privacy Policy</span>
 		    <span>|</span>
-		    <span>&copy; 2022 Cami Doroteo. All Rights Reserved</span>
+		    <span>&copy; 2022 Cami Doroteo</span>
+		     <span>|</span>
+		 	<span>All Rights Reserved</span>
 		    <span>|</span>
 		    <span>All assets are used for educational purposes only.</span>
 		</footer>
 
 		<!-- Footer End -->
 
-
-
-
-
-
+		<!-- updated -->
 
 		<!-- JS bundle -->
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
